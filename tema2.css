@@ -1,0 +1,200 @@
+p,
+h2 {
+  margin: 30px;
+}
+
+.for video {
+  width: 100%;
+  height: 260px;
+  border-radius: 20px;
+}
+
+.forst {
+  background-image: url(billeder/1x/pro.webp);
+  background-position: -107px 189px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.knap_grid1 {
+  background-image: url(billeder/1x/pro.webp);
+  background-position: -218px -19px;
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+
+.ht {
+  background-image: url(billeder/1x/pro.webp);
+  background-position: -201px 235px;
+  background-size: 190%;
+  background-repeat: no-repeat;
+}
+
+.ssp {
+  background-image: url(billeder/1x/pro.webp);
+  background-position: -189px 113px;
+  background-size: 190%;
+  background-repeat: no-repeat;
+}
+
+.fr_m {
+  background-image: url(billeder/1x/pro.webp);
+  background-position: -43px 153px;
+  background-size: 140%;
+  background-repeat: no-repeat;
+}
+
+.knap_vis {
+  background-image: url(billeder/visitkort.webp);
+  width: 200px;
+  padding: 100px;
+  background-color: #ffe8eb;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
+  margin: 25px;
+  background-size: 100%;
+  font-weight: bolder;
+}
+
+.knap_kl {
+  background-image: url(billeder/tolley.webp);
+  width: 200px;
+  padding: 100px;
+  background-color: #ffe8eb;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
+  margin: 25px;
+  background-size: 100%;
+  font-weight: bolder;
+}
+
+.ssp img {
+  width: 100%;
+}
+
+.fr_m img {
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
+  margin: 25px;
+  background-size: 100%;
+  font-weight: bolder;
+}
+
+@media (min-width: 800px) {
+  p,
+  h2 {
+    margin: 0;
+  }
+
+  .back-button {
+    position: fixed;
+    top: 95px;
+    left: -20px;
+    padding: 10px;
+    background: none; /* Adjust the color as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .beskriv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 80px;
+  }
+
+  .te_1 {
+    text-align: left;
+    margin-top: 100px;
+    margin-right: 30px;
+  }
+
+  .forst,
+  .ht,
+  .ssp,
+  .fr_m {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px;
+  }
+
+  .forst p {
+    margin-right: 30px;
+  }
+
+  .nyu {
+    margin-top: 56px;
+  }
+
+  .afs {
+    margin-top: 48px;
+  }
+  .for video {
+    width: 100%;
+    height: 373px;
+    border-radius: 20px;
+  }
+
+  .forst {
+    background-image: url(billeder/1x/pro.webp);
+    background-position: -155px -16px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+
+  .knap_grid1 {
+    background-image: url(billeder/1x/pro.webp);
+    background-position: -54px -19px;
+    background-size: 140%;
+    background-repeat: no-repeat;
+  }
+
+  .ht {
+    background-image: url(billeder/1x/pro.webp);
+    background-position: 819px 179px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+
+  .ssp {
+    background-image: url(billeder/1x/pro.webp);
+    background-position: 410px 20px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+
+  .fr_m {
+    background-image: url(billeder/1x/pro.webp);
+    background-position: 821px -4px;
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  .ht p,
+  .ht h2,
+  .fr_m p,
+  .fr_m h2 {
+    text-align: right;
+  }
+
+  .vs {
+    margin-top: 77px;
+  }
+
+  .fr_m img {
+    width: 500px;
+    margin-left: -5px;
+  }
+
+  .fr_m {
+    background-image: url(billeder/1x/pro.webp);
+    background-position: 917px -8px;
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  .sit {
+    margin-top: 62px;
+  }
+}
