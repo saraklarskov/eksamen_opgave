@@ -222,7 +222,12 @@ h2 {
   .ta {
     width: 400px;
     height: 216px;
-    background-color: white;
+  }
+
+  .ba img,
+  .vi img,
+  .ta img {
+    margin-top: -10px;
   }
 
   .ba h3,
@@ -238,13 +243,21 @@ h2 {
     margin-left: 20px;
   }
 
+  .end_1 {
+    margin-top: 95px;
+  }
+
+  .an_3 {
+    margin-top: 20px;
+  }
+
   .jav2 p {
     margin-top: 120px;
     margin-right: 20px;
   }
 
   .gam {
-    margin-top: 150px;
+    margin-top: 295px;
     text-align: right;
   }
 
