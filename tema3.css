@@ -9,6 +9,14 @@ h2 {
   margin: 30px;
 }
 
+.kn,
+.kna,
+.knap,
+.knap_10 {
+  margin: 0;
+  height: 80px;
+  margin-top: 50px;
+}
 .lis {
   width: 400px;
   padding: 10px;
@@ -218,6 +226,8 @@ p {
   .knap_3 h2,
   .pro_2 h2 {
     margin-top: 80px;
+    text-align: center;
+    font-size: 48px;
   }
 
   .tcmm img {

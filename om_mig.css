@@ -1,63 +1,64 @@
 .mig_selv_billede {
-    width: 80%;
+  width: 80%;
+}
+
+.om_mig_grid p,
+.anset,
+.uddannelse,
+.mastiff {
+  width: 400px;
+  padding: 10px;
+  background-color: #ffe8eb;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
+  margin: 20px;
+  background-size: 200%;
+  background-image: url(billeder/1x/pro.webp);
+  background-repeat: no-repeat;
+  background-position: -201px 144px;
+  margin-left: 35px;
+}
+
+.om_mig_grid {
+  background-image: url(billeder/1x/pro.webp);
+  background-position-x: -66px;
+  background-position-y: -2px;
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 800px) {
+  .om_mig_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: none;
   }
-  
-  .om_mig_grid p,
+
+  .om_mig_1 p {
+    width: 600px;
+    background-color: #ffe8eb;
+  }
+
+  .om_mig_1 {
+    margin-top: 200px;
+  }
+
+  .cv_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .anset,
   .uddannelse,
   .mastiff {
-    width: 400px;
-    padding: 10px;
+    width: 600px;
     background-color: #ffe8eb;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
     margin: 20px;
-    background-size: 200%;
+    background-size: 100%;
     background-image: url(billeder/1x/pro.webp);
     background-repeat: no-repeat;
-    background-position: -201px 144px;
+    background-position: 310px 48px;
   }
-  
-  .om_mig_grid {
-    background-image: url(billeder/1x/pro.webp);
-    background-position-x: -66px;
-    background-position-y: -2px;
-    background-size: 150%;
-    background-repeat: no-repeat;
-  }
-  
-  @media (min-width: 800px) {
-    .om_mig_grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      background-image: none;
-    }
-  
-    .om_mig_1 p {
-      width: 600px;
-      background-color: #ffe8eb;
-    }
-  
-    .om_mig_1 {
-      margin-top: 200px;
-    }
-  
-    .cv_grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-  
-    .anset,
-    .uddannelse,
-    .mastiff {
-      width: 600px;
-      background-color: #ffe8eb;
-      border-radius: 20px;
-      box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
-      margin: 20px;
-      background-size: 100%;
-      background-image: url(billeder/1x/pro.webp);
-      background-repeat: no-repeat;
-      background-position: 310px 48px;
-    }
-  }
+}

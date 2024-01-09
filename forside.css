@@ -11,7 +11,7 @@
   box-shadow: 0 0 20px rgba(224, 114, 114, 0.6);
   border-color: #101c60;
   margin-top: 40px;
-  margin-left: 130px;
+  margin-left: 153px;
 }
 
 /* Button style on hover */
@@ -23,6 +23,10 @@
   border: none;
 }
 
+h1 {
+  margin-top: 100px;
+}
+
 @media (min-width: 800px) {
   .but {
     margin-left: 108px;
@@ -31,5 +35,6 @@
   .hover-button1 {
     width: 400px;
     height: 200px;
+    margin-left: 128px;
   }
 }

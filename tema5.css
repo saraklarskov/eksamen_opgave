@@ -13,12 +13,18 @@ h2 {
   margin: 30px;
 }
 
-.pro,
-.pro_1 {
+.pro {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   margin-top: 20px;
+}
+
+.pro_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
 }
 .nr1 {
   background-image: url(billeder/1x/vids.webp);
@@ -48,21 +54,10 @@ h2 {
 .nr5 a,
 .nr6 h3,
 .nr6 a {
-  color: #ffe8eb;
+  color: #101c60;
   text-align: center;
   font-size: 20px;
-}
-
-.nr4 a,
-.nr4 h3,
-.nr5 h3,
-.nr5 a,
-.nr6 h3,
-.nr6 a {
-  color: rgb(213, 97, 165);
-  font-weight: bold;
-  text-align: center;
-  font-size: 20px;
+  font-weight: bolder;
 }
 
 .git img {
@@ -193,7 +188,7 @@ h2 {
   .nr1 h3,
   .nr2 h3,
   .nr3 h3 {
-    color: #ffe8eb;
+    color: #101c60;
     text-align: center;
     font-size: 60px;
   }
@@ -250,5 +245,19 @@ h2 {
     background-position: 89px 70px;
     background-size: 40%;
     background-repeat: no-repeat;
+  }
+  .ende_1 {
+    margin-top: 93px;
+  }
+
+  .git1 {
+    margin-top: 31px;
+  }
+
+  .sam,
+  .syg,
+  .in_1,
+  .in {
+    margin-top: 210px;
   }
 }
