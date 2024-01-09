@@ -139,15 +139,15 @@ h2 {
   }
   .tion {
     background-image: url(billeder/1x/pro.webp);
-    background-position: 454px -9px;
-    background-size: 70%;
+    background-position: 450px -8px;
+    background-size: 60%;
     background-repeat: no-repeat;
   }
 
   .nim {
     background-image: url(billeder/1x/pro.webp);
-    background-position: -69px -20px;
-    background-size: 80%;
+    background-position: 10px -17px;
+    background-size: 70%;
     background-repeat: no-repeat;
   }
 
@@ -167,7 +167,7 @@ h2 {
 
   .ele {
     background-image: url(billeder/1x/pro.webp);
-    background-position: -225px 5px;
+    background-position: -225px -9px;
     background-size: 129%;
     background-repeat: no-repeat;
   }
@@ -222,6 +222,10 @@ h2 {
   .ta {
     width: 400px;
     height: 216px;
+  }
+
+  .skr {
+    gap: 31px;
   }
 
   .ba img,
