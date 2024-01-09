@@ -18,6 +18,7 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   margin-top: 20px;
+  height: 100px;
 }
 
 .pro_1 {
@@ -58,31 +59,25 @@ h2 {
   text-align: center;
   font-size: 20px;
   font-weight: bolder;
+  margin-top: 39px;
 }
 
 .git img {
   width: 100%;
 }
 
-.nr4 {
-  background-image: url(billeder/mak.webp);
-  background-size: 100%;
-  border-radius: 20px;
-  height: 80px;
-}
-
 .nr5 {
   background-image: url(billeder/git_ja.webp);
   background-size: 100%;
   border-radius: 20px;
-  height: 80px;
+  height: 100px;
 }
 
 .nr6 {
   background-image: url(billeder/proce.webp);
   background-size: 100%;
   border-radius: 20px;
-  height: 80px;
+  height: 100px;
 }
 
 .mart {

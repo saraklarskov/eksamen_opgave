@@ -9,9 +9,10 @@
   transition: transform 0.3s ease;
   width: 200px;
   box-shadow: 0 0 20px rgba(224, 114, 114, 0.6);
-  border-color: #101c60;
+  border: 1px solid #101c60;
   margin-top: 40px;
-  margin-left: 153px;
+  margin-left: 123px;
+  text-align: center;
 }
 
 /* Button style on hover */
@@ -20,7 +21,7 @@
   transform: scale(1.2); /* Increase the scale factor for a larger size */
   background-color: #ffe8eb;
   box-shadow: 0 0 40px #d78590;
-  border: none;
+  border: 3px solid #101c60;
 }
 
 h1 {
@@ -29,12 +30,14 @@ h1 {
 
 @media (min-width: 800px) {
   .but {
-    margin-left: 108px;
+    margin-left: 60px;
   }
   .hover-button,
   .hover-button1 {
-    width: 400px;
-    height: 200px;
-    margin-left: 128px;
+    width: 202px;
+    height: 70px;
+    margin-left: 155px;
+    font-size: 40px;
+    padding: 100px;
   }
 }
