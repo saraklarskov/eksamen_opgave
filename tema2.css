@@ -72,7 +72,8 @@ h2 {
   width: 100%;
 }
 
-.fr_m img {
+.fr_m img,
+.davi img {
   width: 400px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
@@ -113,7 +114,8 @@ h2 {
   .forst,
   .ht,
   .ssp,
-  .fr_m {
+  .fr_m,
+  .davi {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 40px;
@@ -166,25 +168,23 @@ h2 {
 
   .fr_m {
     background-image: url(billeder/1x/pro.webp);
-    background-position: 821px -4px;
+    background-position: 379px -8px;
     background-size: 40%;
     background-repeat: no-repeat;
   }
 
   .ht p,
   .ht h2,
-  .fr_m p,
-  .fr_m h2 {
+  .davi p {
     text-align: right;
+  }
+
+  .davi p {
+    margin-top: 60px;
   }
 
   .vs {
     margin-top: 77px;
-  }
-
-  .fr_m img {
-    width: 500px;
-    margin-left: -5px;
   }
 
   .fr_m {
@@ -196,5 +196,23 @@ h2 {
 
   .sit {
     margin-top: 62px;
+  }
+
+  .davi img {
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
+    margin: -7px;
+    background-size: 100%;
+    font-weight: bolder;
+  }
+
+  .fr_m img {
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
+    margin: 28px;
+    background-size: 100%;
+    font-weight: bolder;
   }
 }

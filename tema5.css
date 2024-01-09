@@ -2,7 +2,8 @@
 .mart_1 img,
 .virk img,
 .virk_1 img,
-.ende img {
+.ende img,
+.pow img {
   width: 100%;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
@@ -145,7 +146,8 @@ h2 {
   .virk,
   .virk_1,
   .git,
-  .ende {
+  .ende,
+  .tes {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 40px;
@@ -162,13 +164,17 @@ h2 {
   }
   .in,
   .virk,
-  .git1 {
+  .git1,
+  .ende_1 {
     margin-left: 30px;
     text-align: right;
   }
 
-  .in_1 {
-    margin-right: 30px;
+  .in p,
+  .virk p,
+  .git1 p,
+  .ende_1 p {
+    margin-left: 20px;
   }
 
   .nr1,
@@ -182,15 +188,10 @@ h2 {
 
   .nr1 h3,
   .nr2 h3,
-  .nr3 h3 {
-    color: #101c60;
-    text-align: center;
-    font-size: 60px;
-  }
-
-  .nr4 h3,
+  .nr3 h3,
   .nr5 h3,
   .nr6 h3 {
+    color: #101c60;
     text-align: center;
     font-size: 60px;
   }
@@ -243,6 +244,7 @@ h2 {
   }
   .ende_1 {
     margin-top: 93px;
+    order: 1;
   }
 
   .git1 {
@@ -254,5 +256,15 @@ h2 {
   .in_1,
   .in {
     margin-top: 210px;
+  }
+
+  .h1_1 {
+    margin-top: 141px;
+  }
+
+  .tes_1,
+  .sam,
+  .in_1 {
+    margin-right: 20px;
   }
 }
